@@ -1,4 +1,4 @@
-/* RESET */
+/* ! RESET */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +19,6 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
-
 /* * Utility */
 
 .fl-left {
@@ -28,6 +27,14 @@ body {
 
 .mg-bot {
     margin-bottom: 2rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 /* * Color utility */
@@ -65,7 +72,7 @@ header {
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     max-width: 1180px;
     height: 100%;
     margin: 0 auto;
@@ -82,7 +89,6 @@ header {
 .main-nav {
     width: calc(100% - 40%);
     text-align: center;
-
 }
 
 .login {
@@ -92,7 +98,7 @@ header {
 
 nav ul li {
     display: inline;
-    margin-right: 1em;
+    margin-right: 1vw;
     font-weight: 500;
 }
 
@@ -100,8 +106,6 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-
-
 
 .jumbotron {
     background-image: url('../img/jumbo.png');
@@ -158,12 +162,22 @@ nav ul li a {
     padding: 13vh 4vw 15vh 2vw;
 }
 
-.content-text h1 {
-    font-size: 30px;
-}
-
 .content-text p {
     font-size: 14px;
     margin-top: 1.5rem;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
 }
+
+.full-width-text {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.image>img {
+    width: 100%;
+}
+
+.star {}
