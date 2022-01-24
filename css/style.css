@@ -19,7 +19,7 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
-/* * Utility */
+/* Utility */
 
 .fl-left {
     float: left;
@@ -37,7 +37,7 @@ body {
     position: absolute;
 }
 
-/* * Color utility */
+/* Color utility */
 .bg-gray {
     background-color: rgb(246, 246, 246);
 }
@@ -51,7 +51,11 @@ body {
     color: white;
 }
 
-/* * Generics */
+/* Generics */
+
+img {
+    width: 100%;
+}
 
 .btn {
     border: none;
@@ -63,7 +67,7 @@ body {
     padding: 12px 15px;
 }
 
-/* * Header */
+/* Header */
 header {
     width: 100%;
     height: 80px;
@@ -106,6 +110,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* Jumbotron */
 
 .jumbotron {
     background-image: url('../img/jumbo.png');
@@ -153,10 +159,6 @@ nav ul li a {
     padding: 4rem 3rem;
 }
 
-.content-img>img {
-    width: 100%;
-}
-
 .content-text {
     width: 35%;
     padding: 13vh 4vw 15vh 2vw;
@@ -170,14 +172,22 @@ nav ul li a {
 
 .full-width-text {
     text-align: center;
+    padding-top: 3vh;
 }
 
 .title {
     font-size: 30px;
 }
 
-.image>img {
-    width: 100%;
+.star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6vh;
 }
 
-.star {}
+.last {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
