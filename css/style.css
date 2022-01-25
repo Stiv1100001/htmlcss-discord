@@ -29,14 +29,6 @@ body {
     margin-bottom: 2rem;
 }
 
-.relative {
-    position: relative;
-}
-
-.absolute {
-    position: absolute;
-}
-
 /* Color utility */
 .bg-gray {
     background-color: rgb(246, 246, 246);
@@ -46,17 +38,17 @@ body {
     background-color: white;
 }
 
+.bg-blue {
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .btn-black {
     background-color: black;
     color: white;
 }
 
 /* Generics */
-
-img {
-    width: 100%;
-}
-
 .btn {
     border: none;
     padding: 8px 10px;
@@ -91,7 +83,7 @@ header {
 }
 
 .main-nav {
-    width: calc(100% - 40%);
+    width: 60%;
     text-align: center;
 }
 
@@ -127,7 +119,7 @@ nav ul li a {
 }
 
 .jumbotron h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .jumbotron p {
@@ -146,48 +138,46 @@ nav ul li a {
 
 /* * Content */
 
-.content {
-    display: inline-block;
+.main-section {
+    padding: 100px 20px;
 }
 
-.content-section {
-    margin-bottom: 3rem;
+.img-element img {
+    width: 100%;
 }
 
-.content-img {
-    width: calc(65% - 5px);
-    padding: 4rem 3rem;
+.img-element {
+    width: 65%;
 }
 
-.content-text {
+.text-element {
     width: 35%;
-    padding: 13vh 4vw 15vh 2vw;
+    padding-top: 2.1rem;
 }
 
-.content-text p {
-    font-size: 14px;
-    margin-top: 1.5rem;
-    line-height: 1.4rem;
+.text-element h2, .full-width-element h2 {
+    font-size: 3rem;
+    margin-bottom: 1em;
 }
 
-.full-width-text {
+.text-element p, .full-width-element p {
+    line-height: 1.6em;
+}
+
+.full-width-element {
+    width: 100%;
     text-align: center;
-    padding-top: 3vh;
 }
 
-.title {
-    font-size: 30px;
+.full-width-element img {
+    width: 100%;
 }
 
-.star {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 6vh;
-}
-
-.last {
-    position: absolute;
-    top: 0;
-    z-index: 2;
+.stars-title {
+    width: 50%;
+    margin: 2rem auto;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    padding: 2rem 1rem 1rem;
+    background-repeat: no-repeat;
 }
